@@ -4,7 +4,7 @@
 This repository contains IPython Notebook with sample code, implementing Machine Learning algorithm for the Bike Demand Forecasting
 given the Bike Sharing Data set at https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset
 
-You can view "My_Bike_share.ipynb" directly on github, or clone the repository, install dependencies listed in the notebook and play with code locally.
+You can view "Who_Bike_share.ipynb" directly on github, or clone the repository, install dependencies listed in the notebook and play with code locally.
 
  
  ### Task
