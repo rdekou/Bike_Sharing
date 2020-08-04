@@ -4,8 +4,6 @@
 This repository contains IPython Notebook with sample code, implementing Machine Learning algorithm for the Bike Demand Forecasting
 given the Bike Sharing Data set at https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset
 
-
-
  
 ### Task
 Given the Bike Sharing Data set at https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset,
@@ -25,9 +23,7 @@ The data set (hour.csv) contains a wide range of features such as the season, ye
 - Evaluate all the models created by comparing with one another and examine the error statistics based on predicted and known values
 
 
-Installation (for manual usage)
-============
-
+### Installation (for manual usage)
 1. Clone this repository.
 
     git clone https://github.com/rdekou/Bike_Sharing.git
@@ -35,25 +31,22 @@ Installation (for manual usage)
 
 2. Setup a conda virtual environment and activate it. If you do not have conda, use an anaconda installation.
 
-# First check if an enviroment bike-share-py37 already exists
- 
+##### First check if an enviroment bike-share-py37 already exists
     conda info --envs                              
 
-# Remove if it exists
- 
+##### Remove if it exists
     conda remove --name bike-share-py37 --all      
 
-# Create enviroment if it's not yet created. Otherwise, skip this step.
-# This step is creating the enviroment with the necessary requirements listed in the environment-py37.yaml file
- 
+##### Create enviroment if it's not yet created. Otherwise, skip this step.
+##### This step is creating the enviroment with the necessary requirements listed in the environment-py37.yaml file
     conda env create -f environment-py37.yaml      
 
-# Activate enviroment
+##### Activate enviroment
  
     source activate bike-share-py37
 
-# installing extra packages in the environment
+##### installing extra packages in the environment
 
     pip install -r requirements.txt             
 
-# Note: the name bike-share-py37  is defined in the first line of the environment-py37.yml file
+##### Note: the name bike-share-py37  is defined in the first line of the environment-py37.yml file
